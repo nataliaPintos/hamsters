@@ -1,10 +1,17 @@
 <nav class="navbar navbar-expand-md navbar navbar-light fixed-top" style="background-color: rgb(74, 218, 186);">
+  <button class="" style="
+    border: none;
+   background-color: rgb(74, 218, 186);
+outline: none;">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
   <a class="navbar-brand" href="#">
     <img src="../../assets/img/cute-hamster.png" width="50" height="40" alt=""/>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" (click)="isCollapsed = !isCollapsed"
-  data-target="#navbarsExampleDefault"
-    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          data-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarsExampleDefault" [ngbCollapse]="isCollapsed">
@@ -24,3 +31,6 @@
     </form>
   </div>
 </nav>
+
+
+

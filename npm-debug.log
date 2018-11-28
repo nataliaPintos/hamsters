@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'project' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose config Skipping project config: C:\Users\100me/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData project
+9 silly fetchDirectoryPackageData project
+10 silly fetchPackageMetaData Error: Failed to parse json
+10 silly fetchPackageMetaData Trailing comma in object at 13:3
+10 silly fetchPackageMetaData   },
+10 silly fetchPackageMetaData   ^
+10 silly fetchPackageMetaData     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+10 silly fetchPackageMetaData     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+10 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+10 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+10 silly fetchPackageMetaData     at tryToString (fs.js:456:3)
+10 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:443:12)
+10 silly fetchPackageMetaData  error for project { Error: Failed to parse json
+10 silly fetchPackageMetaData Trailing comma in object at 13:3
+10 silly fetchPackageMetaData   },
+10 silly fetchPackageMetaData   ^
+10 silly fetchPackageMetaData     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+10 silly fetchPackageMetaData     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+10 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+10 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+10 silly fetchPackageMetaData     at tryToString (fs.js:456:3)
+10 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:443:12)
+10 silly fetchPackageMetaData   code: 'EJSONPARSE',
+10 silly fetchPackageMetaData   file: 'C:\\Users\\100me\\hamsters\\project\\package.json' }
+11 silly rollbackFailedOptional Starting
+12 silly rollbackFailedOptional Finishing
+13 silly runTopLevelLifecycles Finishing
+14 silly install printInstalled
+15 verbose stack Error: Failed to parse json
+15 verbose stack Trailing comma in object at 13:3
+15 verbose stack   },
+15 verbose stack   ^
+15 verbose stack     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+15 verbose stack     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+15 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+15 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+15 verbose stack     at tryToString (fs.js:456:3)
+15 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:443:12)
+16 verbose cwd C:\Users\100me\hamsters
+17 error Windows_NT 10.0.17134
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "project"
+19 error node v6.11.2
+20 error npm  v3.10.10
+21 error file C:\Users\100me\hamsters\project\package.json
+22 error code EJSONPARSE
+23 error Failed to parse json
+23 error Trailing comma in object at 13:3
+23 error   },
+23 error   ^
+24 error File: C:\Users\100me\hamsters\project\package.json
+25 error Failed to parse package.json data.
+25 error package.json must be actual JSON, not just JavaScript.
+25 error
+25 error This is not a bug in npm.
+25 error Tell the package author to fix their package.json file. JSON.parse
+26 verbose exit [ 1, true ]
